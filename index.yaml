@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  nodejs:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2021-08-28T11:59:24.8170776-04:00"
+    description: API installation
+    digest: e3827ab9beb991b604a891281e90b7bffbf21842d13198941bb8bfa7cbcdfca2
+    name: nodejs
+    urls:
+    - https://guruprasanna30.github.io/helm/nodejs-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-28T11:59:24.815342-04:00"

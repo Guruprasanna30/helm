@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mynode
+  name: mynode
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mynode
+  template:
+    metadata:
+      labels:
+        app: mynode
+    spec:
+      containers:
+      - image: guruprasanna30/jenkins:v1
+        name: jenkins
